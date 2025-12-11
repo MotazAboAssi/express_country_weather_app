@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{{title_tab}}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <main>
+        <form>
+            <h2>
+                <i class="fa-solid fa-cloud-sun-rain"></i>
+                Weather App
+            </h2>
+            <input type="text" id="input_city_name" placeholder="Enter country name">
+            <button class="disabled  none" disabled="true"><i class="fa-solid fa-spinner"></i></button>
+            <button class="block">get weather</button>
+        </form>
+        <p id="error_aria" class="none"></p>
+        <section id="resault" class="none">
+            <div>
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Country : </h3>
+                <p></p>
+
+            </div>
+            <div>
+                <i class="fa-solid fa-location-crosshairs"></i>
+                <h3>Latitude : </h3>
+                <p></p>
+            </div>
+            <div>
+                <i class="fa-solid fa-location-crosshairs"></i>
+                <h3>Longitude : </h3>
+                <p></p>
+            </div>
+            <div>
+                <i class="fa-solid fa-temperature-full"></i>
+                <h3>Temperature : </h3>
+                <p></p>
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
