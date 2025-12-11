@@ -41,13 +41,14 @@ The app includes beautiful UI pages, proper error handling, and server-side fetc
 ---
 
 ## 📁 Project Structure
+```bash
 express_country_weather_app/
 │
 ├── public/           # CSS, images, client-side JS
 ├── views/            # .hbs templates (layouts, views)
 ├── app.js            # Main Express server
 └── package.json
-
+```
 
 ---
 
